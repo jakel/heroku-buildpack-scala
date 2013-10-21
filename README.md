@@ -1,7 +1,7 @@
 Heroku buildpack: Scala
 =========================
 
-This is a [Heroku buildpack](http://devcenter.heroku.com/articles/buildpacks) for Scala apps.
+This is a [Heroku buildpack](http://devcenter.heroku.com/articles/buildpacks) for Play 2.x apps with SASS support.
 It uses [sbt](https://github.com/harrah/xsbt/) 0.11.0+.
 
 Usage
@@ -12,7 +12,7 @@ Example usage:
     $ ls
     Procfile build.sbt project src
 
-    $ heroku create --buildpack https://github.com/heroku/heroku-buildpack-scala.git
+    $ heroku create --buildpack https://github.com/jakel/heroku-buildpack-scala.git
 
     $ git push heroku master
     ...
